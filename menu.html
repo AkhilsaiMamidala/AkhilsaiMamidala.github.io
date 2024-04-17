@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Menu</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="tast.png" alt="Tasty Bites Logo" width="200">
+    </div>
+    <div class="welcome-message">
+      <h1>Welcome to Tasty Bites!</h1>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <div id="search-container">
+      <form id="search-form">
+        <input type="text" id="search-input" placeholder="Search...">
+        <select id="section-dropdown">
+          <option value="all">All Sections</option>
+          <option value="tiffins">Tiffins</option>
+          <option value="starters">Starters</option>
+          <option value="gravy-and-curry">Gravy & Curry</option>
+          <option value="biryani-and-pulao">Biryani & Pulao</option>
+          <option value="beverages">Beverages</option>
+          <option value="desserts">Desserts</option>
+          <option value="indian-breads">Indian Breads</option>
+        </select>
+        <button type="submit">Search</button>
+      </form>
+    </div>
+    
+    <section id="tiffins">
+        <h2>Tiffins</h2>
+        <div class="menu-item">
+            <img src="masala_dosa.jpg" alt="Masala Dosa">
+            <div class="description">
+              <h3>Masala Dosa</h3>
+              <p>Thin crispy crepe filled with spiced potatoes.</p>
+              <p class="price">₹100</p>
+            </div>
+          </div>
+
+          <div class="menu-item">
+            <img src="chole_bhature.jpg" alt="Chole Bhature">
+            <div class="description">
+              <h3>Chole Bhature</h3>
+              <p>Spiced chickpeas served with fried bread.</p>
+              <p class="price">₹135</p>
+            </div>
+          </div>
+    </section>
+
+    <section id="starters">
+      <h2>Starters</h2>
+      <div class="menu-item">
+        <img src="aloo_tikki.jpg" alt="Aloo Tikki">
+        <div class="description">
+          <h3>Aloo Tikki</h3>
+          <p>Delicious potato patties served with mint chutney.</p>
+          <p class="price">₹120</p>
+        </div>
+      </div>
+      
+      <div class="menu-item">
+        <img src="veg_manchurian.jpg" alt="Veg Manchurian">
+        <div class="description">
+          <h3>Veg Manchurian</h3>
+          <p>Vegetable balls in spicy Manchurian sauce.</p>
+          <p class="price">₹160</p>
+        </div>
+      </div>
+      
+      <div class="menu-item">
+        <img src="samosa.jpg" alt="Samosa">
+        <div class="description">
+          <h3>Samosa</h3>
+          <p>Crunchy pastry filled with spiced potatoes and peas.</p>
+          <p class="price">₹120</p>
+        </div>
+      </div>
+      
+      <div class="menu-item">
+        <img src="paneer_tikka.jpg" alt="Paneer Tikka">
+        <div class="description">
+          <h3>Paneer Tikka</h3>
+          <p>Marinated paneer cubes grilled to perfection.</p>
+          <p class="price">₹250</p>
+        </div>
+      </div>
+      <!-- Add more starter items here -->
+    </section>
+    
+    <section id="gravy-and-curry">
+      <h2>Gravy & Curry</h2>
+      <div class="menu-item">
+        <img src="butter_chicken.jpg" alt="Butter Chicken">
+        <div class="description">
+          <h3>Butter Chicken</h3>
+          <p>Tender chicken cooked in a rich tomato and butter sauce.</p>
+          <p class="price">₹350</p>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img src="rogan_josh.jpg" alt="Rogan Josh">
+        <div class="description">
+          <h3>Rogan Josh</h3>
+          <p>Traditional Indian lamb curry with aromatic spices.</p>
+          <p class="price">₹450</p>
+        </div>
+      </div>
+      <!-- Add more gravy & curry items here -->
+    </section>
+
+    <section id="biryani-and-pulao">
+      <h2>Biryani & Pulao</h2>
+      <div class="menu-item">
+        <img src="hyderabadi _biryani.jpg" alt="Hyderabadi Biryani">
+        <div class="description">
+          <h3>Hyderabadi Biryani</h3>
+          <p>Hyderabadi Biryani is a fragrant and flavorful Indian rice dish</p>
+          <p class="price">₹330</p>
+        </div>
+      </div>
+
+      <div class="menu-item">
+          <img src="vegetable_pulao.jpg" alt="Vegetable Pulao">
+          <div class="description">
+            <h3>Vegetable Pulao</h3>
+            <p>Fragrant rice cooked with mixed vegetables.</p>
+            <p class="price">₹160</p>
+          </div>
+        </div>
+      <!-- Add more biryani & pulao items here -->
+    </section>
+
+    <section id="beverages">
+      <h2>Beverages</h2>
+      <div class="menu-item">
+        <img src="filter_coffee.jpg" alt="Filter Coffee">
+        <div class="description">
+          <h3>Filter Coffee</h3>
+          <p>South Indian-style coffee brewed with a filter.</p>
+          <p class="price">₹40</p>
+        </div>
+      </div>
+      
+      <div class="menu-item">
+        <img src="masala_chai.jpg" alt="Masala Chai">
+        <div class="description">
+          <h3>Masala Chai</h3>
+          <p>Indian spiced tea with milk and aromatic spices.</p>
+          <p class="price">₹60</p>
+        </div>
+      </div>
+      
+      <div class="menu-item">
+        <img src="jaljeera.jpg" alt="Jaljeera">
+        <div class="description">
+          <h3>Jaljeera</h3>
+          <p>Refreshing Indian drink made with cumin and mint.</p>
+          <p class="price">₹45</p>
+        </div>
+      </div>
+
+      <div class="menu-item">
+          <img src="thandal.jpg" alt="Thandal">
+          <div class="description">
+            <h3>Thandal</h3>
+            <p>Refreshing Indian almond milk drink.</p>
+            <p class="price">₹140</p>
+          </div>
+        </div>
+      
+      <div class="menu-item">
+        <img src="lassi.jpg" alt="Lassi">
+        <div class="description">
+          <h3>Lassi</h3>
+          <p>Traditional Indian yogurt-based drink, sweet or salty.</p>
+          <p class="price">₹60</p>
+        </div>
+      </div>
+      <!-- Add more beverage items here -->
+    </section>
+
+    <section id="desserts">
+      <h2>Desserts</h2>
+      <div class="menu-item">
+        <img src="jalebi.jpg" alt="Jalebi">
+        <div class="description">
+          <h3>Jalebi</h3>
+          <p>Crispy deep-fried sweet pretzels soaked in sugar syrup.</p>
+          <p class="price">₹75</p>
+        </div>
+      </div>
+      
+      <div class="menu-item">
+        <img src="gulab_jamun.jpg" alt="Gulab Jamun">
+        <div class="description">
+          <h3>Gulab Jamun</h3>
+          <p>Spongy sweet balls soaked in sugar syrup.</p>
+          <p class="price">₹220</p>
+        </div>
+      </div>
+      
+      <div class="menu-item">
+        <img src="payasam.jpg" alt="Payasam">
+        <div class="description">
+          <h3>Payasam (Kheer)</h3>
+          <p>Traditional Indian rice pudding made with milk and sugar.</p>
+          <p class="price">₹180</p>
+        </div>
+      </div>
+      
+      <div class="menu-item">
+        <img src="rasamalai.jpg" alt="Rasamalai">
+        <div class="description">
+          <h3>Rasamalai</h3>
+          <p>Soft cheese dumplings served in sweetened milk.</p>
+          <p class="price">₹230</p>
+        </div>
+      </div>
+      
+      <div class="menu-item">
+        <img src="rasgulla.jpg" alt="Rasgulla">
+        <div class="description">
+          <h3>Rasgulla</h3>
+          <p>Soft spongy balls made from cottage cheese soaked in sugar syrup.</p>
+          <p class="price">₹155</p>
+        </div>
+      </div>
+      <!-- Add more dessert items here -->
+    </section>
+
+    <section id="indian-breads">
+      <h2>Indian Breads</h2>
+      <div class="menu-item">
+        <img src="butter_naan.jpg" alt="Butter Naan">
+        <div class="description">
+          <h3>Butter Naan</h3>
+          <p>Soft and fluffy Indian bread brushed with butter.</p>
+          <p class="price">₹45</p>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="roti.jpg" alt="Roti">
+        <div class="description">
+          <h3>Roti</h3>
+          <p>Soft and fluffy Indian bread, traditionally made from whole wheat flour.</p>
+          <p class="price">₹30</p>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="parotta.jpg" alt="">
+        <div class="description">
+          <h3>Parotta</h3>
+          <p>A flaky, layered South Indian flatbread made from maida.</p>
+          <p class="price">₹30</p>
+        </div>
+      </div>
+      <!-- Add more Indian bread items here -->
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Tasty Bites Restaurant</p>
+  </footer>
+
+  <script src="script.js"></script> <!-- Include your JavaScript file -->
+</body>
+</html>
